@@ -1,0 +1,39 @@
+{
+  "name": "proyecto-turismo",
+  "version": "1.0.0",
+  "description": "proyecto personal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matiasenriquez/Proyecto-Turismo.git"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "bootstrap",
+    "express",
+    "MySQL"
+  ],
+  "author": "Enriquez Alejandro Matias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matiasenriquez/Proyecto-Turismo/issues"
+  },
+  "homepage": "https://github.com/Matiasenriquez/Proyecto-Turismo#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "mysql2": "^3.14.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
